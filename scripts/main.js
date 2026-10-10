@@ -8,13 +8,6 @@ import { world } from "@minecraft/server";
 const RESTRICTED_BLOCKS = [
     { id: "minecraft:stone",         name: "石" },
     { id: "minecraft:deepslate",     name: "深層岩" },
-    { id: "minecraft:tuff",          name: "凝灰岩" },
-    { id: "minecraft:granite",       name: "花崗岩" },
-    { id: "minecraft:diorite",       name: "閃緑岩" },
-    { id: "minecraft:andesite",      name: "安山岩" },
-    { id: "minecraft:blackstone",    name: "ブラックストーン" },
-    { id: "minecraft:basalt",        name: "玄武岩" },
-    { id: "minecraft:smooth_basalt", name: "滑らかな玄武岩" },
 ];
 
 // 高速検索用

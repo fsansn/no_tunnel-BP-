@@ -5,7 +5,7 @@
       "name": "No Tunnel",
       "uuid": "5fd96572-3966-4f47-91bc-a98e0a00da51",
       "min_engine_version": [1,20,10],
-      "version": [1,0,0]
+      "version": [1,0,1]
     },
     "modules": [
       {
