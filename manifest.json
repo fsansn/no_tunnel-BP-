@@ -1,0 +1,30 @@
+{
+    "format_version": 2,
+    "header": {
+      "description": "トンネル禁止",
+      "name": "No Tunnel",
+      "uuid": "5fd96572-3966-4f47-91bc-a98e0a00da51",
+      "min_engine_version": [1,20,10],
+      "version": [1,0,0]
+    },
+    "modules": [
+      {
+        "type": "script",
+        "language": "javascript",
+        "uuid": "3b43a663-f80f-4567-b4e8-f9b7e1330aac",
+        "entry": "scripts/main.js",
+        "version": [0,1,0]
+      },{
+        "type": "data",
+        "uuid": "3cbd61ce-a5d4-41c2-90d9-0a4d7807e5e2",
+        "version": [1,0,0]
+      }
+    ],
+    "capabilities": ["script_eval"],
+    "dependencies": [
+      {
+        "module_name": "@minecraft/server",
+        "version": "1.10.0"
+      }
+    ]
+  }
